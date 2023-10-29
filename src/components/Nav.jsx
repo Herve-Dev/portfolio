@@ -8,7 +8,7 @@ function Nav() {
   return (
     <ul className="block-nav">
       <NavLink to="/" className={setActive}>
-        <li>Home</li>
+        <li>Accueil</li>
       </NavLink>
       <NavLink to="/projects" className={setActive}>
         <li>Projets</li>
