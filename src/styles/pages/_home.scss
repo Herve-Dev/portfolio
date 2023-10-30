@@ -9,8 +9,13 @@ main {
         height: 50%;
     }
 
-    section:last-child {
+   /* section:last-child {
         width: 50%;
         height: 50vh;
+    }*/
+
+    div {
+        display: flex;
     }
+    
 }

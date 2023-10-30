@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "../components/Avatar";
 import AboutMe from "../components/AboutMe";
+import Stack from "../components/Stack";
 
 function Home() {
   return (
@@ -8,9 +9,14 @@ function Home() {
       <section className="section-avatar">
         <Avatar />
       </section>
-      <section className="section-about">
-        <AboutMe />
-      </section>
+      <div>
+        <section className="section-about">
+          <AboutMe />
+        </section>
+        <section className="section-stack">
+          <Stack />
+        </section>
+      </div>
     </main>
   );
 }
