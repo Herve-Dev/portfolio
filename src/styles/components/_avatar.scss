@@ -1,6 +1,9 @@
 .block-avatar {
     padding: 5px;
     border: solid 3px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .first-section-avatar {
         border: solid 3px purple;

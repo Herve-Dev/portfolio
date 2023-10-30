@@ -1,5 +1,16 @@
-section {
-    border: solid 2px blue;
-    display: flex;
-    justify-content: center;
+main {
+    border: solid 3px yellow;
+    height: 100%;
+
+    section {
+        border: solid 2px blue;
+        display: flex;
+        justify-content: center;
+        height: 50%;
+    }
+
+    section:last-child {
+        width: 50%;
+        height: 50vh;
+    }
 }

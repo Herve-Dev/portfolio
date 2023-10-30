@@ -1,6 +1,7 @@
 @import "./settings";
+@import "./utils/mixins";
 @import "./components/navigation";
 @import "./components/avatar";
-@import "./utils/mixins";
+@import "./components/about";
 @import "./layout/header";
 @import "./pages/home";
